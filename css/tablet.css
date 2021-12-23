@@ -1,0 +1,18 @@
+.main-tables-container{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px; /*delimita el flex a ese ancho*/
+
+    margin: 0 auto; /*hace que el margen lateral siga aumentando de modo que se mantenga centrado todo el tiempo y a los 930px de width*/
+}
+
+.plans-container--slider{
+    justify-content: center;
+}
+
